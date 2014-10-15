@@ -1,4 +1,4 @@
-<!-- http://stackoverflow.com/a/17934268 -->
+<!-- http://stackoverflow.com/a/17934268-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +16,18 @@
 
 </head>
 <body>
-<div ng-app="ejborges.app">
-    <div ng-view></div>
-</div>
 
-<h1>Achievement Unlocked!</h1>
-<br>
-<h3>Created a life portfolio.</h3>
-<br>
-<h5>Working on making it more interesting...</h5>
+<div class="WIP-msg">
+    <h1>Achievement Unlocked!</h1>
+    <br>
+    <h3>Created my life's work portfolio.</h3>
+    <br>
+    <h5>Working on making it more interesting...</h5>
+
+    <div ng-app="ejborges.app" class="ng-app">
+        <div ng-view></div>
+    </div>
+</div>
 
 <script type="text/javascript" src="assets/libs/jquery-2.1.1/jquery-2.1.1.js"></script>
 <!--<script type="text/javascript" src="assets/libs/jquery-2.1.1/jquery-2.1.1.min.js"></script>-->

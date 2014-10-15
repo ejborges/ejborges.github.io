@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- http://stackoverflow.com/a/6771584 -->
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
         <base href="/"> <!-- http://scotch.io/quick-tips/js/angular/pretty-urls-in-angularjs-removing-the-hashtag -->
-        <title>Emilio Borges</title>
+        <title>Emilio Borges Portfolio</title>
 
         <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-3.2.0-dist/css/bootstrap.css">
         <!--<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-3.2.0-dist/css/bootstrap.min.css">-->
@@ -15,15 +15,18 @@
 
     </head>
     <body>
-        <div ng-app="ejborges.app">
-            <div ng-view></div>
-        </div>
 
-        <h1>Achievement Unlocked!</h1>
-        <br>
-        <h3>Created a life portfolio.</h3>
-        <br>
-        <h5>Working on making it more interesting...</h5>
+        <div class="WIP-msg">
+            <h1>Achievement Unlocked!</h1>
+            <br>
+            <h3>Created my life's work portfolio.</h3>
+            <br>
+            <h5>Working on making it more interesting...</h5>
+
+            <div ng-app="ejborges.app" class="ng-app">
+                <div ng-view></div>
+            </div>
+        </div>
 
         <script type="text/javascript" src="assets/libs/jquery-2.1.1/jquery-2.1.1.js"></script>
         <!--<script type="text/javascript" src="assets/libs/jquery-2.1.1/jquery-2.1.1.min.js"></script>-->
