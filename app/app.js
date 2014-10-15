@@ -8,7 +8,8 @@ app.config(
     [
         '$routeProvider',
         '$httpProvider',
-        function($routeProvider, $httpProvider) {
+        '$locationProvider',
+        function($routeProvider, $httpProvider, $locationProvider) {
 
             // The following changes are needed to enable CORS (Cross-Origin Resource Sharing) support for this client
             $httpProvider.defaults.useXDomain = true;
@@ -27,6 +28,9 @@ app.config(
                     controller: 'projectsCtrl'
                 }
             ).otherwise({redirectTo: '/home'});
+
+            // use the HTML5 History API
+            $locationProvider.html5Mode(true);
 }]);
 
 app.run([
