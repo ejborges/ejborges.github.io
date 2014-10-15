@@ -8,7 +8,12 @@ module.controller(
     'homeCtrl',
     [
         '$scope',
-        function($scope){
+        '$location',
+        function($scope, $location){
+
+            $scope.gotoProjects = function() {
+                $location.path('/projects').replace();
+            };
 
         }
     ]
