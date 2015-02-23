@@ -1,8 +1,4 @@
-/**
- * Created by Emilio on 10/12/2014.
- */
-
-var app = angular.module('ejborges.app', ['ngRoute', 'home.controller', 'projects.controller']);
+var app = angular.module('ejborges.app', ['ngRoute']);
 
 app.config(
     [
@@ -16,25 +12,13 @@ app.config(
             delete $httpProvider.defaults.headers.common['X-Requested-With'];
 
             $routeProvider.when(
-                '/home',
+                '/',
                 {
-                    templateUrl: 'app/components/home/homeView.html',
-                    controller: 'homeCtrl'
+                    templateUrl: 'app/resume/resumeView.html',
+                    controller: 'resumeCtrl'
                 }
-            ).when(
-                '/projects',
-                {
-                    templateUrl: 'app/components/projects/projectsView.html',
-                    controller: 'projectsCtrl'
-                }
-            ).otherwise({redirectTo: '/home'});
+            ).otherwise({redirectTo: '/'});
 
             // use the HTML5 History API
             $locationProvider.html5Mode(true);
-}]);
-
-app.run([
-    '$rootScope',
-    function($rootScope) {
-
 }]);
