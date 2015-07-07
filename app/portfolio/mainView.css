@@ -7,9 +7,13 @@
     font-size: 36px;
 }
 
-/*@media screen and (max-width: )*/
+@media screen and (max-width: 800px) {
+    .header {
+        font-size: 24px;
+    }
+}
 
-.name {
+    .name {
     color: #0B9A49;
     font-size: 1em;
     font-family: "Times New Roman", Times, serif;
