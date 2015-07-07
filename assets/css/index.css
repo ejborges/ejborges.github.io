@@ -36,7 +36,7 @@ body{
 }
 
 @media screen and (max-width: 800px) {
-    .header .header-content {
+    .header {
         font-size: 24px;
     }
 }
