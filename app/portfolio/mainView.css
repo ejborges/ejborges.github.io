@@ -1,40 +1,39 @@
 
 .header {
     position: relative;
-    background: #2c3e50;
-    padding: 1em;
+    background: #ffffff;
     box-shadow: 0 3px 10px rgba(0,0,0,0.35);
     z-index: 999;
 }
 
 .name {
-    color: #ffffff;
+    color: #0B9A49;
     font-size: 36px;
     font-family: "Times New Roman", Times, serif;
     line-height: 200%;
 }
 
 .contact-info {
-    color: #bdc3c7;
+    color: #6B7F8C;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
 }
 
 .contact-info > a:link {
-    color: #bdc3c7;
+    color: #27ae60;
     text-decoration: none;
 }
 .contact-info > a:visited {
-    color: #bdc3c7;
+    color: #027936;
     text-decoration: none;
 }
 .contact-info > a:hover {
-    color: #ffffff;
+    color: #45BD79;
     text-decoration: none;
 }
 .contact-info > a:active {
-    color: #ffffff;
+    color: #45BD79;
     text-decoration: none;
 }
 
