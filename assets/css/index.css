@@ -29,6 +29,7 @@ body{
 }
 
 .header .header-content {
+    font-family: Verdana;
     font-size: 36px;
     max-width: 1000px;
     margin-left: auto;
