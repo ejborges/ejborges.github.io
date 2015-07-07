@@ -8,7 +8,6 @@ module.controller(
 
             $scope.contact = {
                 name: "Emilio Borges",
-                phone: "(440) 452-5303",
                 email: "emilio.j.borges@gmail.com",
                 github: {
                     url: "https://github.com/ejborges",

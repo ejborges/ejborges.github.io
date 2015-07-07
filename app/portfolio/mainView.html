@@ -1,107 +1,110 @@
-<!-- Wide view -->
-<div class="fill-viewport flex-column" ng-show="window.width >= 992">
+<div ng-include="'mainView-desktop.html'" class="fill-viewport flex-column" ng-show="window.width >= 800"></div>
+<div ng-include="'mainView-mobile.html'" class="fill-viewport flex-column" ng-show="window.width < 800"></div>
 
-    <!-- Header -->
-    <div class="flex-row header">
-        <div class="flex-item-dynamic"></div>
+<!--&lt;!&ndash; Wide view &ndash;&gt;-->
+<!--<div class="fill-viewport flex-column" ng-show="window.width >= 992">-->
 
-        <div class="flex-item-static flex-column">
-            <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="name">{{contact.name}}</span>
-            </div>
-            <div class="flex-item-dynamic"></div>
-        </div>
+    <!--&lt;!&ndash; Header &ndash;&gt;-->
+    <!--<div class="flex-row header">-->
+        <!--<div class="flex-item-dynamic"></div>-->
 
-        <div class="flex-item-dynamic"></div>
+        <!--<div class="flex-item-static flex-column">-->
+            <!--<div class="flex-item-dynamic"></div>-->
+            <!--<div class="flex-item-static">-->
+                <!--<span class="name">{{contact.name}}</span>-->
+            <!--</div>-->
+            <!--<div class="flex-item-dynamic"></div>-->
+        <!--</div>-->
 
-        <div class="flex-item-static flex-column">
-            <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="contact-info">{{contact.email}}</span>
-            </div>
-            <div class="flex-item-dynamic"></div>
-        </div>
+        <!--<div class="flex-item-dynamic"></div>-->
 
-        <div class="flex-item-dynamic"></div>
+        <!--<div class="flex-item-static flex-column">-->
+            <!--<div class="flex-item-dynamic"></div>-->
+            <!--<div class="flex-item-static">-->
+                <!--<span class="contact-info">{{contact.email}}</span>-->
+            <!--</div>-->
+            <!--<div class="flex-item-dynamic"></div>-->
+        <!--</div>-->
 
-        <div class="flex-item-static flex-column">
-            <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="contact-info"><a href="{{contact.github.url}}">{{contact.github.text}}</a></span>
-            </div>
-            <div class="flex-item-dynamic"></div>
-        </div>
+        <!--<div class="flex-item-dynamic"></div>-->
 
-        <div class="flex-item-dynamic"></div>
-    </div>
+        <!--<div class="flex-item-static flex-column">-->
+            <!--<div class="flex-item-dynamic"></div>-->
+            <!--<div class="flex-item-static">-->
+                <!--<span class="contact-info"><a href="{{contact.github.url}}">{{contact.github.text}}</a></span>-->
+            <!--</div>-->
+            <!--<div class="flex-item-dynamic"></div>-->
+        <!--</div>-->
 
-    <div class="flex-row about-me">
-        <span>{{resume.about}}</span>
-    </div>
+        <!--<div class="flex-item-dynamic"></div>-->
+    <!--</div>-->
 
-    <div class="flex-item-static flex-row">
-        <div class="flex-item-dynamic"></div>
-        <div class="flex-item-static">
-            <span style="line-height: 500%">This page is still under construction.</span>
-        </div>
-        <div class="flex-item-dynamic"></div>
-    </div>
-</div>
+    <!--<div class="flex-row about-me">-->
+        <!--<span>{{resume.about}}</span>-->
+    <!--</div>-->
+
+    <!--<div class="flex-item-static flex-row">-->
+        <!--<div class="flex-item-dynamic"></div>-->
+        <!--<div class="flex-item-static">-->
+            <!--<span style="line-height: 500%">This page is still under construction.</span>-->
+        <!--</div>-->
+        <!--<div class="flex-item-dynamic"></div>-->
+    <!--</div>-->
+<!--</div>-->
 
 
 
-<!-- Thin view -->
-<div class="fill-viewport flex-column" ng-show="window.width < 992">
+<!--&lt;!&ndash; Thin view &ndash;&gt;-->
+<!--<div class="fill-viewport flex-column" ng-show="window.width < 992">-->
 
-    <!-- Header -->
-    <div class="header">
-        <div class="flex-item-static flex-row">
-            <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static flex-column">
-                <div class="flex-item-dynamic"></div>
-                <div class="flex-item-static">
-                    <span class="name">{{contact.name}}</span>
-                </div>
-                <div class="flex-item-dynamic"></div>
-            </div>
-            <div class="flex-item-dynamic"></div>
+    <!--&lt;!&ndash; Header &ndash;&gt;-->
+    <!--<div class="header">-->
+        <!--<div class="flex-item-static flex-row">-->
+            <!--<div class="flex-item-dynamic"></div>-->
+            <!--<div class="flex-item-static flex-column">-->
+                <!--<div class="flex-item-dynamic"></div>-->
+                <!--<div class="flex-item-static">-->
+                    <!--<span class="name">{{contact.name}}</span>-->
+                <!--</div>-->
+                <!--<div class="flex-item-dynamic"></div>-->
+            <!--</div>-->
+            <!--<div class="flex-item-dynamic"></div>-->
 
-            <div class="flex-item-static flex-column">
-                <div class="flex-item-dynamic"></div>
-                <div class="flex-item-static flex-row">
-                    <div class="flex-item-dynamic"></div>
-                    <div class="flex-item-static">
-                        <span class="contact-info">{{contact.email}}</span>
-                    </div>
-                    <div class="flex-item-dynamic"></div>
-                </div>
-                <div class="flex-item-dynamic"></div>
-                <div class="flex-item-static flex-row">
-                    <div class="flex-item-dynamic"></div>
-                    <div class="flex-item-static">
-                        <span class="contact-info">
-                            <a href="{{contact.github.url}}">{{contact.github.text}}</a>
-                        </span>
-                    </div>
-                    <div class="flex-item-dynamic"></div>
-                </div>
-                <div class="flex-item-dynamic"></div>
-            </div>
+            <!--<div class="flex-item-static flex-column">-->
+                <!--<div class="flex-item-dynamic"></div>-->
+                <!--<div class="flex-item-static flex-row">-->
+                    <!--<div class="flex-item-dynamic"></div>-->
+                    <!--<div class="flex-item-static">-->
+                        <!--<span class="contact-info">{{contact.email}}</span>-->
+                    <!--</div>-->
+                    <!--<div class="flex-item-dynamic"></div>-->
+                <!--</div>-->
+                <!--<div class="flex-item-dynamic"></div>-->
+                <!--<div class="flex-item-static flex-row">-->
+                    <!--<div class="flex-item-dynamic"></div>-->
+                    <!--<div class="flex-item-static">-->
+                        <!--<span class="contact-info">-->
+                            <!--<a href="{{contact.github.url}}">{{contact.github.text}}</a>-->
+                        <!--</span>-->
+                    <!--</div>-->
+                    <!--<div class="flex-item-dynamic"></div>-->
+                <!--</div>-->
+                <!--<div class="flex-item-dynamic"></div>-->
+            <!--</div>-->
 
-            <div class="flex-item-dynamic"></div>
-        </div>
-    </div>
+            <!--<div class="flex-item-dynamic"></div>-->
+        <!--</div>-->
+    <!--</div>-->
 
-    <div class="flex-row about-me">
-        <span>{{resume.about}}</span>
-    </div>
+    <!--<div class="flex-row about-me">-->
+        <!--<span>{{resume.about}}</span>-->
+    <!--</div>-->
 
-    <div class="flex-item-static flex-row">
-        <div class="flex-item-dynamic"></div>
-        <div class="flex-item-static">
-            <span style="line-height: 500%">This page is still under construction.</span>
-        </div>
-        <div class="flex-item-dynamic"></div>
-    </div>
-</div>
+    <!--<div class="flex-item-static flex-row">-->
+        <!--<div class="flex-item-dynamic"></div>-->
+        <!--<div class="flex-item-static">-->
+            <!--<span style="line-height: 500%">This page is still under construction.</span>-->
+        <!--</div>-->
+        <!--<div class="flex-item-dynamic"></div>-->
+    <!--</div>-->
+<!--</div>-->
