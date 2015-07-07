@@ -1,7 +1,7 @@
 var module = angular.module('ejborges.app');
 
 module.controller(
-    'resumeCtrl',
+    'mainCtrl',
     [
         '$scope',
         function($scope){

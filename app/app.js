@@ -14,8 +14,8 @@ app.config(
             $routeProvider.when(
                 '/',
                 {
-                    templateUrl: 'app/resume/resumeView.html',
-                    controller: 'resumeCtrl'
+                    templateUrl: 'app/portfolio/mainView.html',
+                    controller: 'mainCtrl'
                 }
             ).otherwise({redirectTo: '/'});
 
