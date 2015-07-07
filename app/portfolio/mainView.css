@@ -9,25 +9,8 @@
 .contact-info {
     color: #6B7F8C;
     font-size: 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
     line-height: 200%;
-}
-
-.contact-info > a:link {
-    color: #27ae60;
-    text-decoration: none;
-}
-.contact-info > a:visited {
-    color: #027936;
-    text-decoration: none;
-}
-.contact-info > a:hover {
-    color: #45BD79;
-    text-decoration: none;
-}
-.contact-info > a:active {
-    color: #45BD79;
-    text-decoration: none;
 }
 
 .about-me {

@@ -41,3 +41,21 @@ body{
         font-size: 24px;
     }
 }
+
+a:link {
+    color: #27ae60;
+    text-decoration: none;
+}
+a:visited {
+    color: #027936;
+    text-decoration: none;
+}
+a:hover {
+    color: #45BD79;
+    text-decoration: none;
+}
+/*.contact-info > a:active {*/
+a:active {
+    color: #45BD79;
+    text-decoration: none;
+}
