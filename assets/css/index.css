@@ -4,7 +4,7 @@ body{
 }
 
 .desktop {
-
+    display: inline;
 }
 
 .mobile {
@@ -17,6 +17,6 @@ body{
     }
 
     .mobile {
-
+        display: inline;
     }
 }
