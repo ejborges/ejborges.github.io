@@ -8,15 +8,15 @@ body{
 }
 
 .mobile {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 800px) {
     .desktop {
-        display: none;
+        display: none !important;
     }
 
     .mobile {
-        
+
     }
 }
