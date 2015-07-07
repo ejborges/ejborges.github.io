@@ -20,3 +20,21 @@ body{
         display: inline !important;
     }
 }
+
+.header {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+    z-index: 999;
+}
+
+.header .header-content {
+    font-size: 36px;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+    .header .header-content {
+        font-size: 24px;
+    }
+}
