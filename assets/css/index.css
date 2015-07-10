@@ -42,19 +42,19 @@ body{
 }
 
 a:link {
-    color: #27ae60;
+    color: inherit;
     text-decoration: none;
 }
 a:visited {
-    color: #027936;
+    color: inherit;
     text-decoration: none;
 }
 a:hover {
-    color: #45BD79;
+    color: #27ae60;
     text-decoration: none;
 }
 /*.contact-info > a:active {*/
 a:active {
-    color: #45BD79;
+    color: #27ae60;
     text-decoration: none;
 }

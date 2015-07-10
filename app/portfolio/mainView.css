@@ -3,14 +3,14 @@
     color: #0B9A49;
     font-size: 1em;
     font-family: "Times New Roman", Times, serif;
-    line-height: 200%;
+    /*line-height: 200%;*/
 }
 
 .contact-info {
     color: #6B7F8C;
     font-size: 0.5em;
     font-family: Verdana, sans-serif;
-    line-height: 200%;
+    /*line-height: 200%;*/
 }
 
 .about-me {

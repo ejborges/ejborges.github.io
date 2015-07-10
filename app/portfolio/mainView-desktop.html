@@ -8,8 +8,8 @@
 
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="name">{{contact.name}}</span>
+            <div class="flex-item-static name">
+                {{contact.name}}
             </div>
             <div class="flex-item-dynamic"></div>
         </div>
@@ -18,8 +18,8 @@
 
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="contact-info">{{contact.email}}</span>
+            <div class="flex-item-static contact-info">
+                {{contact.email}}
             </div>
             <div class="flex-item-dynamic"></div>
         </div>
@@ -28,8 +28,8 @@
 
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
-            <div class="flex-item-static">
-                <span class="contact-info"><a href="{{contact.github.url}}">{{contact.github.text}}</a></span>
+            <div class="flex-item-static contact-info">
+                <a href="{{contact.github.url}}">{{contact.github.text}}</a>
             </div>
             <div class="flex-item-dynamic"></div>
         </div>
@@ -43,7 +43,7 @@
 
 
 <div class="flex-row about-me">
-    <span>{{resume.about}}</span>
+    {{resume.about}}
 </div>
 
 <div class="flex-item-static flex-row">
