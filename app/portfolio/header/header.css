@@ -1,7 +1,9 @@
 
 .header {
-    position: relative;
+    position: fixed;
+    width: 100%;
     background: #ffffff;
+    background: rgba(255,255,255,0.95);
     box-shadow: 0 3px 10px rgba(0,0,0,0.35);
     z-index: 999;
     font-size: 36px;
