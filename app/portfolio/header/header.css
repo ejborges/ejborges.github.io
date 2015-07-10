@@ -6,17 +6,17 @@
     background: rgba(255,255,255,0.95);
     box-shadow: 0 3px 10px rgba(0,0,0,0.35);
     z-index: 999;
-    font-size: 36px;
 }
 
-.header .header-content {
+.header-content {
+    font-size: 36px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media screen and (max-width: 800px) {
-    .header {
+    .header-content {
         font-size: 24px;
     }
 }
@@ -35,8 +35,5 @@
 }
 
 .vertical-offset {
-    position: relative;
-    width: 100%;
-    height: 1em;
-    z-index: 998;
+    height: 5em;
 }
