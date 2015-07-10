@@ -15,17 +15,9 @@
     margin-right: auto;
 }
 
-.vertical-offset {
-    height: 2em;
-}
-
 @media screen and (max-width: 800px) {
     .header-content {
         font-size: 24px;
-    }
-
-    .vertical-offset {
-        height: 1em;
     }
 }
 
@@ -40,5 +32,9 @@
     color: #6B7F8C;
     font-size: 0.5em;
     font-family: Verdana, sans-serif;
+}
+
+.vertical-offset {
+    height: 2em;
 }
 
