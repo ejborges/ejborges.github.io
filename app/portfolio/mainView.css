@@ -32,11 +32,13 @@
 }
 
 .section-green {
-    background: #27ae60;
+    /*background: #27ae60;*/
+    background: linear-gradient(#27ae60, #027936);
     color: #ffffff;
 }
 
 .section-white {
-    background: #ffffff;
+    /*background: #ffffff;*/
+    background: linear-gradient(#ffffff, #C1C1C1);
     color: #2c3e50;
 }
