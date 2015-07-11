@@ -15,10 +15,12 @@ module.controller(
                 }
             };
 
+            $scope.aboutMe = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus tempor metus nec lacinia. Nunc feugiat est vitae tellus mollis vestibulum. Morbi vitae metus vel justo cursus efficitur. Duis imperdiet laoreet interdum. Vivamus lacus metus, rutrum eu libero ut, porttitor luctus sem. Etiam condimentum orci velit, ultrices convallis tellus consectetur faucibus. Vivamus non purus in augue dictum efficitur fermentum quis lectus. Praesent cursus risus at auctor viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer dignissim sagittis ipsum sed finibus.";
+
             $scope.resume = {
                 //about: "Obtain a Computer Science and Engineering cooperative education position to continue to" +
                 //" improve my professional skills and make a positive impact wherever I go.",
-                about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus tempor metus nec lacinia. Nunc feugiat est vitae tellus mollis vestibulum. Morbi vitae metus vel justo cursus efficitur. Duis imperdiet laoreet interdum. Vivamus lacus metus, rutrum eu libero ut, porttitor luctus sem. Etiam condimentum orci velit, ultrices convallis tellus consectetur faucibus. Vivamus non purus in augue dictum efficitur fermentum quis lectus. Praesent cursus risus at auctor viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer dignissim sagittis ipsum sed finibus.",
+                about: "",
                 education: {
                     university: {
                         name: "The University of Toledo",

@@ -1,12 +1,36 @@
 
-.about-me {
+.profilepic-desktop {
+    width: 400px;
+    height: 400px;
+    float:left
+    border-radius: 200px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+}
+
+.profilepic-mobile {
+    width: 100px;
+    height: 100px;
+    float:left
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+}
+
+.section {
     position: relative;
-    background: #27ae60;
-    color: #ffffff;
-    font-size: 16px;
+    /*font-size: 16px;*/
     text-align: justify;
     text-indent: 2em;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.35);
+    /*box-shadow: 0 3px 10px rgba(0,0,0,0.35);*/
     padding: 1em;
-    z-index: 888;
+    /*z-index: 888;*/
+}
+
+.section-green {
+    background: #27ae60;
+    color: #ffffff;
+}
+
+.section-white {
+    background: #ffffff;
+    color: #2c3e50;
 }
