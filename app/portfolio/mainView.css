@@ -1,12 +1,12 @@
 
 .profilepic {
     float: left;
-    padding: 0.5em 1em 0.5em 0;
 }
 
 .profilepic-desktop {
     width: 200px;
     height: 200px;
+    padding: 0.5em 1em 0.5em 0;
     border-radius: 20px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.35);
 }
@@ -14,6 +14,7 @@
 .profilepic-mobile {
     width: 100px;
     height: 100px;
+    padding: 0 0 0.5em;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.35);
 }
