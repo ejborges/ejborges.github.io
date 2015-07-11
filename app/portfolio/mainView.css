@@ -1,7 +1,7 @@
 
 .profilepic {
     float: left;
-    padding: 1em;
+    padding: 0.5em 1em 0.5em 0;
 }
 
 .profilepic-desktop {
@@ -20,12 +20,8 @@
 
 .section {
     position: relative;
-    /*font-size: 16px;*/
     text-align: justify;
-    text-indent: 2em;
-    /*box-shadow: 0 3px 10px rgba(0,0,0,0.35);*/
     padding: 1em;
-    /*z-index: 888;*/
 }
 
 .section-green {
