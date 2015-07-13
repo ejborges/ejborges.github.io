@@ -70,16 +70,19 @@ a:active {
 }
 
 @keyframes curtain-fade {
-    from {opacity: 1;}
-    to {opacity: 0; z-index: 0;}
+    0% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {display: none !important;}
 }
 
 @-webkit-keyframes curtain-fade {
-    from {opacity: 1;}
-    to {opacity: 0; z-index: 0;}
+    0% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {display: none !important;}
 }
 
 @-moz-keyframes curtain-fade {
-    from {opacity: 1;}
-    to {opacity: 0; z-index: 0;}
+    0% {opacity: 1;}
+    99% {opacity: 0;}
+    100% {display: none !important;}
 }
