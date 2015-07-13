@@ -45,7 +45,9 @@ a:active {
 }
 
 .curtain {
+    position: fixed;
     background: #ffffff;
+    z-index: 9999;
 
     animation-name: curtain-fade;
     animation-duration: 0.5s;
