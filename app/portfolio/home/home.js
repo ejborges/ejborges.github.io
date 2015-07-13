@@ -7,7 +7,7 @@ module.controller(
         '$http',
         function($scope, $http){
 
-            $http.get('home.json')
+            $http.get('/app/portfolio/home/home.json')
                 .success(function(data){
                     $scope.test = data;
                     alert(test.test);
