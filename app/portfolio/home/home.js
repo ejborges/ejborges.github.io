@@ -10,7 +10,7 @@ module.controller(
             $http.get('/app/portfolio/home/home.json')
                 .success(function(data){
                     $scope.test = data;
-                    alert(test.test);
+                    alert($scope.test.test);
                 })
                 .error(function(){
                     alert("It didn't work :'(");
