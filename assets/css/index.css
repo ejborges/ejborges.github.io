@@ -54,6 +54,16 @@ a:active {
     color: #ffffff;
 }
 
+.js-allowed {
+    opacity: 0;
+    z-index: 0;
+    display: none !important;
+}
+
+.no-js-msg {
+    text-align: center;
+}
+
 .curtain {
     background: #ffffff;
     z-index: 9999;
@@ -61,7 +71,7 @@ a:active {
     animation-name: curtain-fade;
     animation-duration: 0.5s;
     animation-timing-function: ease;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 
     /* Chrome/Safari */
