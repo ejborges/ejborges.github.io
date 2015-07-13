@@ -1,16 +1,20 @@
 <!-- Desktop View Template (large screen width) -->
 
+<!-- load external content -->
+<script>
+    $("#about-me-desktop").load("/app/portfolio/home/home-content.html #about-me");
+</script>
+
 <!-- About Me -->
 <div class="flex-row section section-green">
-    <p class="section-content">
+    <p id="about-me-desktop" class="section-content">
 
         <!-- profile pic -->
         <span class="profilepic">
             <img src="/assets/img/profilepic.png" class="profilepic-desktop">
         </span>
 
-        <!-- about me -->
-        {{json.aboutMe}}
+        <!-- about me text loaded by jquery script above -->
 
     </p>
 </div>

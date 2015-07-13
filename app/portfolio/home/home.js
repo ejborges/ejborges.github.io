@@ -7,13 +7,17 @@ module.controller(
         '$http',
         function($scope, $http){
 
-            $http.get('/app/portfolio/home/home.json')
-                .success(function(data){
-                    $scope.json = data;
-                })
-                .error(function(){
-                    alert("Something went wrong :'(");
-                });
+            // instead of using JSON, can we load a .html file with <div>s with #ids containing our paragraphs/text?
+            // also, check if user has javascript disabled by having some html load first saying they have js disabled
+            //    and if they do have js enabled then some js will remove that html and load the rest of the page
+
+            //$http.get('/app/portfolio/home/home.json')
+            //    .success(function(data){
+            //        $scope.json = data;
+            //    })
+            //    .error(function(){
+            //        alert("Something went wrong while loading some content :(");
+            //    });
 
 
             $scope.aboutMe = "";

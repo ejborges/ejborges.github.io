@@ -1,5 +1,10 @@
 <!-- Mobile View Template (small screen width) -->
 
+<!-- load external content -->
+<script>
+    $("#about-me-mobile").load("/app/portfolio/home/home-content.html #about-me");
+</script>
+
 <!-- About Me -->
 <div class="flex-row section section-green">
     <div class="flex-column section-content">
@@ -13,8 +18,8 @@
             <div class="flex-item-dynamic"></div>
         </div>
 
-        <!-- about me -->
-        <div class="flex-item-static">{{json.aboutMe}}</div>
+        <!-- about me text loaded by jquery script above -->
+        <div id="about-me-mobile" class="flex-item-static"></div>
 
     </div>
 </div>
