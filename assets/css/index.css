@@ -72,17 +72,17 @@ a:active {
 @keyframes curtain-fade {
     0% {opacity: 1;}
     99% {opacity: 0;}
-    100% {display: none !important;}
+    100% {opacity: 0; z-index: 0;}
 }
 
 @-webkit-keyframes curtain-fade {
     0% {opacity: 1;}
     99% {opacity: 0;}
-    100% {display: none !important;}
+    100% {opacity: 0; z-index: 0;}
 }
 
 @-moz-keyframes curtain-fade {
     0% {opacity: 1;}
     99% {opacity: 0;}
-    100% {display: none !important;}
+    100% {opacity: 0; z-index: 0;}
 }
