@@ -45,13 +45,13 @@ a:active {
 }
 
 ::selection {
-    background: #0F6788;
-    opacity: 0.9;
+    background-color: #3498DB;
+    color: #ffffff;
 }
 
 ::-moz-selection {
-    background: #0F6788;
-    opacity: 0.9;
+    background-color: #3498DB;
+    color: #ffffff;
 }
 
 .curtain {
