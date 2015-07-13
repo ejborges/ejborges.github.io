@@ -6,8 +6,7 @@ module.controller(
         '$scope',
         '$http',
         function($scope, $http){
-
-            // instead of using JSON, can we load a .html file with <div>s with #ids containing our paragraphs/text?
+            
             // also, check if user has javascript disabled by having some html load first saying they have js disabled
             //    and if they do have js enabled then some js will remove that html and load the rest of the page
 
