@@ -4,7 +4,17 @@ module.controller(
     'homeCtrl',
     [
         '$scope',
-        function($scope){
+        '$http',
+        function($scope, $http){
+
+            $http.get('home.json')
+                .success(function(data){
+                    $scope.test = data;
+                    alert(test.test);
+                })
+                .error(function(){
+                    alert("It didn't work :'(");
+                });
 
             $scope.contact = {
                 name: "Emilio Borges",
