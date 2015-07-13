@@ -1,5 +1,12 @@
 <!-- Header - Desktop View Template (large screen width) -->
 
+<!-- load external content -->
+<script>
+    $("#header-name-desktop").load("/app/portfolio/header/header-content.html #header-name");
+    $("#header-email-desktop").load("/app/portfolio/header/header-content.html #header-email");
+    $("#header-github-desktop").load("/app/portfolio/header/header-content.html #header-github");
+</script>
+
 <div class="flex-row header">
 
     <div class="flex-row flex-item-dynamic header-content">
@@ -8,9 +15,8 @@
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
 
-            <div class="flex-item-static name">
-                Emilio Borges
-            </div>
+            <!-- name text loaded by jquery script above -->
+            <div id="header-name-desktop" class="flex-item-static name"></div>
 
             <div class="flex-item-dynamic"></div>
         </div>
@@ -20,9 +26,8 @@
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
 
-            <div class="flex-item-static contact-info">
-                <a ng-href="mailto:emilio.j.borges@gmail.com">emilio.j.borges@gmail.com</a>
-            </div>
+            <!-- email <a> tag loaded by jquery script above -->
+            <div id="header-email-desktop" class="flex-item-static contact-info"></div>
 
             <div class="flex-item-dynamic"></div>
         </div>
@@ -32,9 +37,8 @@
         <div class="flex-item-static flex-column">
             <div class="flex-item-dynamic"></div>
 
-            <div class="flex-item-static contact-info">
-                <a ng-href="https://github.com/ejborges">github.com/ejborges</a>
-            </div>
+            <!-- github <a> tag loaded by jquery script above -->
+            <div id="header-github-desktop" class="flex-item-static contact-info"></div>
             
             <div class="flex-item-dynamic"></div>
         </div>

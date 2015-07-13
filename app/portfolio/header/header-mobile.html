@@ -1,14 +1,20 @@
 <!-- Header - Mobile View Template (large screen width) -->
 
+<!-- load external content -->
+<script>
+    $("#header-name-mobile").load("/app/portfolio/header/header-content.html #header-name");
+    $("#header-email-mobile").load("/app/portfolio/header/header-content.html #header-email");
+    $("#header-github-mobile").load("/app/portfolio/header/header-content.html #header-github");
+</script>
+
 <div class="flex-item-static flex-row header">
     <div class="flex-item-dynamic"></div>
 
     <div class="flex-item-static flex-column header-content">
         <div class="flex-item-dynamic"></div>
 
-        <div class="flex-item-static name">
-            Emilio Borges
-        </div>
+        <!-- name text loaded by jquery script above -->
+        <div id="header-name-mobile" class="flex-item-static name"></div>
 
         <div class="flex-item-dynamic"></div>
     </div>
@@ -21,9 +27,8 @@
         <div class="flex-item-static flex-row">
             <div class="flex-item-dynamic"></div>
 
-            <div class="flex-item-static contact-info">
-                <a ng-href="mailto:emilio.j.borges@gmail.com">emilio.j.borges@gmail.com</a>
-            </div>
+            <!-- email <a> tag loaded by jquery script above -->
+            <div id="header-email-mobile" class="flex-item-static contact-info"></div>
 
             <div class="flex-item-dynamic"></div>
         </div>
@@ -33,9 +38,8 @@
         <div class="flex-item-static flex-row">
             <div class="flex-item-dynamic"></div>
 
-            <div class="flex-item-static contact-info">
-                <a ng-href="https://github.com/ejborges">github.com/ejborges</a>
-            </div>
+            <!-- github <a> tag loaded by jquery script above -->
+            <div id="header-github-mobile" class="flex-item-static contact-info"></div>
 
             <div class="flex-item-dynamic"></div>
         </div>
