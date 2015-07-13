@@ -72,15 +72,15 @@ a:active {
 
 @keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0; display: none !important;}
 }
 
 @-webkit-keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0; display: none !important;}
 }
 
 @-moz-keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0; display: none !important;}
 }
