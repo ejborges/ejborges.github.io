@@ -21,6 +21,11 @@
     </head>
     <body>
         <div ng-app="ejborges.app">
+
+            <!-- White curtain that fades out (to hide loading elements/css) -->
+            <div class="fill-parent curtain"></div>
+
+            <!-- If JavaScript is blocked, show this message -->
             <div class="fill-parent flex-column" ng-class="hasJS">
                 <div class="flex-item-dynamic"></div>
                 <div class="flex-item-static flex-row">
@@ -35,6 +40,8 @@
                 </div>
                 <div class="flex-item-dynamic"></div>
             </div>
+
+            <!-- Angular injects the rest of the page here -->
             <div ng-view></div>
         </div>
 

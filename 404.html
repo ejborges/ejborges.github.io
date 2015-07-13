@@ -22,6 +22,26 @@
     <body>
         <div ng-app="ejborges.app">
 
+            <!-- White curtain that fades out (to hide loading elements/css) -->
+            <div class="fill-parent curtain"></div>
+
+            <!-- If JavaScript is blocked, show this message -->
+            <div class="fill-parent flex-column" ng-class="hasJS">
+                <div class="flex-item-dynamic"></div>
+                <div class="flex-item-static flex-row">
+                    <div class="flex-item-dynamic"></div>
+                    <div class="flex-item-static no-js-msg">
+                        It looks like JavaScript has been blocked by your browser.
+                        <br>
+                        <br>
+                        Simply allow JavaScript and reload this page to fix this issue.
+                    </div>
+                    <div class="flex-item-dynamic"></div>
+                </div>
+                <div class="flex-item-dynamic"></div>
+            </div>
+
+            <!-- Angular injects the rest of the page here -->
             <div ng-view></div>
         </div>
 

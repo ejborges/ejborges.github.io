@@ -62,6 +62,7 @@ a:active {
 
 .no-js-msg {
     text-align: center;
+    word-wrap: break-word;
 }
 
 .curtain {
