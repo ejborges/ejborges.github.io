@@ -45,7 +45,6 @@ a:active {
 }
 
 .curtain {
-    position: fixed;
     background: #ffffff;
     z-index: 9999;
 
@@ -72,15 +71,15 @@ a:active {
 
 @keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0; display: none !important;}
+    to {opacity: 0; z-index: 0;}
 }
 
 @-webkit-keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0; display: none !important;}
+    to {opacity: 0; z-index: 0;}
 }
 
 @-moz-keyframes curtain-fade {
     from {opacity: 1;}
-    to {opacity: 0; display: none !important;}
+    to {opacity: 0; z-index: 0;}
 }
