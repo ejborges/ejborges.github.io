@@ -44,6 +44,16 @@ a:active {
     text-decoration: none;
 }
 
+::selection {
+    background: #0F6788;
+    opacity: 0.9;
+}
+
+::-moz-selection {
+    background: #0F6788;
+    opacity: 0.9;
+}
+
 .curtain {
     background: #ffffff;
     z-index: 9999;
