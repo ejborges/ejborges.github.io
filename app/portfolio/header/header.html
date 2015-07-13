@@ -1,20 +1,20 @@
 
+<!-- Load JSON -->
+<script type="text/javascript">
+//    $.getJSON('/app/portfolio/home/home.json', function(data) {
+//        $(data.name).appendTo("#header-name");
+//        $("<a ng-href=\"mailto:" + data.email + "\">" + data.email + "</a>").appendTo("#header-email");
+//        $("<a ng-href=\"" + data.github.url + "\">" + data.github.text + "</a>").appendTo("#header-github");
+//    });
+    $("Emilio Borges").appendTo("#header-name");
 
+</script>
 
 <!-- Desktop View Template (large screen width) -->
 <div ng-include="'/app/portfolio/header/header-desktop.html'" class="desktop fill-viewport flex-column"></div>
 
 <!-- Mobile View Template (small screen width) -->
 <div ng-include="'/app/portfolio/header/header-mobile.html'" class="mobile fill-viewport flex-column"></div>
-
-<!-- Load JSON -->
-<script type="text/javascript">
-    $.getJSON('/app/portfolio/home/home.json', function(data) {
-        $(data.name).appendTo("#header-name");
-        $("<a ng-href=\"mailto:" + data.email + "\">" + data.email + "</a>").appendTo("#header-email");
-//        $("<a ng-href=\"" + data.github.url + "\">" + data.github.text + "</a>").appendTo("#header-github");
-    });
-</script>
 
 <!-- Vertical Spacing (same height as header height to offset content below header) -->
 <div class="header-content vertical-offset"></div>
