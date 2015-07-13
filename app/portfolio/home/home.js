@@ -1,7 +1,7 @@
 var module = angular.module('ejborges.app');
 
 module.controller(
-    'mainCtrl',
+    'homeCtrl',
     [
         '$scope',
         function($scope){

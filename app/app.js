@@ -14,8 +14,8 @@ app.config(
             $routeProvider.when(
                 '/',
                 {
-                    templateUrl: 'app/portfolio/mainView.html',
-                    controller: 'mainCtrl'
+                    templateUrl: 'app/portfolio/home/home.html',
+                    controller: 'homeCtrl'
                 }
             ).otherwise({redirectTo: '/'});
 
