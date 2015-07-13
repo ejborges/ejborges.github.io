@@ -1,3 +1,10 @@
 {
-  "test": "It worked!"
+  "contact": {
+    "name": "Emilio Borges",
+    "email": "emilio.j.borges@gmail.com",
+    "github:": {
+      "url": "https://github.com/ejborges",
+      "text": "github.com/ejborges"
+    }
+  }
 }

@@ -1,4 +1,13 @@
 
+<!-- Load JSON -->
+<script type="text/javascript">
+    $.getJSON('/app/portfolio/home/home.json', function(data) {
+        $(data.name).appendTo("#header-name");
+        $("<a ng-href=\"mailto:" + data.email + "\">" + data.email + "</a>").appendTo("#header-email");
+        $("<a ng-href=\"" + data.github.url + "\">" + data.github.text + "</a>").appendTo("#header-github");
+    });
+</script>
+
 <!-- Desktop View Template (large screen width) -->
 <div ng-include="'/app/portfolio/header/header-desktop.html'" class="desktop fill-viewport flex-column"></div>
 

@@ -9,11 +9,10 @@ module.controller(
 
             $http.get('/app/portfolio/home/home.json')
                 .success(function(data){
-                    $scope.test = data;
-                    alert($scope.test.test);
+                    $scope.json = data;
                 })
                 .error(function(){
-                    alert("It didn't work :'(");
+                    alert("Something went wrong :'(");
                 });
 
             $scope.contact = {
