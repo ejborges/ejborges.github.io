@@ -27,5 +27,5 @@ app.run(
     [
         '$rootScope',
         function($rootScope){
-            $rootScope.hasJS = "js-allowed";
+            $rootScope.hasJS = "js-allowed";    //if JavaScript is blocked, show JS is blocked message
 }]);

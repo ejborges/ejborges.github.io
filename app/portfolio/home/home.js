@@ -6,12 +6,6 @@ module.controller(
         '$scope',
         function($scope){
 
-            // also, check if user has javascript disabled by having some html load first saying they have js disabled
-            //    and if they do have js enabled then some js will remove that html and load the rest of the page
-
-
-            $scope.aboutMe = "";
-
             $scope.resume = {
                 //about: "Obtain a Computer Science and Engineering cooperative education position to continue to" +
                 //" improve my professional skills and make a positive impact wherever I go.",
