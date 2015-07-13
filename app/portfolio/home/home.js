@@ -4,19 +4,10 @@ module.controller(
     'homeCtrl',
     [
         '$scope',
-        '$http',
-        function($scope, $http){
-            
+        function($scope){
+
             // also, check if user has javascript disabled by having some html load first saying they have js disabled
             //    and if they do have js enabled then some js will remove that html and load the rest of the page
-
-            //$http.get('/app/portfolio/home/home.json')
-            //    .success(function(data){
-            //        $scope.json = data;
-            //    })
-            //    .error(function(){
-            //        alert("Something went wrong while loading some content :(");
-            //    });
 
 
             $scope.aboutMe = "";

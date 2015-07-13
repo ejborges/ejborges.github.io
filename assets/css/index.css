@@ -43,3 +43,42 @@ a:active {
     color: #27ae60;
     text-decoration: none;
 }
+
+.curtain {
+    background: #ffffff;
+
+    animation-name: curtain-fade;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    /* Chrome/Safari */
+    -webkit-animation-name: curtain-fade;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+
+    /* Mozilla */
+    -moz-animation-name: curtain-fade;
+    -moz-animation-duration: 0.5s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-fill-mode: forwards;
+}
+
+@keyframes curtain-fade {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@-webkit-keyframes curtain-fade {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@-moz-keyframes curtain-fade {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
