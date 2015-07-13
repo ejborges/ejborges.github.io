@@ -23,6 +23,8 @@ app.config(
             $locationProvider.html5Mode(true);
 }]);
 
-app.run(function($rootscope){
+app.run([
+    "$rootscope",
+    function($rootscope){
         $rootscope.hasJS = "js-allowed";
-});
+}]);
