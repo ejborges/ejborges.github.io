@@ -75,6 +75,11 @@ a:active {
     text-decoration: none;
 }
 
+.no-js-msg > a:visited {
+    color: #3498DB;
+    text-decoration: none;
+}
+
 .curtain {
     background: #ffffff;
     z-index: 9999;
