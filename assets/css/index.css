@@ -60,9 +60,14 @@ a:active {
     display: none !important;
 }
 
+.no-js-msg-header {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 .no-js-msg {
     text-align: center;
-    word-wrap: break-word;
+    line-height: 2em;
 }
 
 .curtain {
