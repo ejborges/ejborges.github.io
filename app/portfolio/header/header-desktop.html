@@ -2,9 +2,11 @@
 
 <!-- load external content -->
 <script>
-    $("#header-name-desktop").load("/app/portfolio/header/header-content.html #header-name");
-    $("#header-email-desktop").load("/app/portfolio/header/header-content.html #header-email");
-    $("#header-github-desktop").load("/app/portfolio/header/header-content.html #header-github");
+    $(function() {
+        $("#header-name-desktop").load("/app/portfolio/header/header-content.html #header-name");
+        $("#header-email-desktop").load("/app/portfolio/header/header-content.html #header-email");
+        $("#header-github-desktop").load("/app/portfolio/header/header-content.html #header-github");
+    });
 </script>
 
 <div class="flex-row header">
