@@ -67,7 +67,12 @@ a:active {
 
 .no-js-msg {
     text-align: center;
-    line-height: 2em;
+    line-height: 2.5em;
+}
+
+.no-js-msg > a:link {
+    color: #3498DB;
+    text-decoration: none;
 }
 
 .curtain {

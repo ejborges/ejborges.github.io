@@ -26,19 +26,22 @@
             <div class="fill-parent curtain"></div>
 
             <!-- If JavaScript is blocked, show this message -->
-            <div class="fill-parent flex-column" ng-class="hasJS">
+            <noscript class="fill-parent flex-column">
                 <div class="flex-item-dynamic"></div>
                 <div class="flex-item-static flex-row">
                     <div class="flex-item-dynamic"></div>
                     <div class="flex-item-static no-js-msg">
                         <span class="no-js-msg-header">JavaScript Disabled</span>
                         <div>Your browser is blocking JavaScript from running</div>
-                        <div>Please allow JavaScript to properly run the site</div>
+                        <div>For full functionality of this site, please enable JavaScript</div>
+                        <a href="http://www.enable-javascript.com/" target="_blank">
+                            Click here for instructions on enabling JavaScript
+                        </a>
                     </div>
                     <div class="flex-item-dynamic"></div>
                 </div>
                 <div class="flex-item-dynamic"></div>
-            </div>
+            </noscript>
 
             <!-- Angular injects the rest of the page here -->
             <div ng-view></div>
